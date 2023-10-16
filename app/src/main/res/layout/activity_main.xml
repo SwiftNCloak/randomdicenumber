@@ -16,6 +16,7 @@
 
         <!--Table-->
         <TableLayout
+            android:id="@+id/tableLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -629,12 +630,14 @@
                 android:textSize="18dp"
                 android:layout_width="200sp"
                 android:id="@+id/playBtn"
+                android:onClick="Play"
                 android:layout_height="wrap_content"/>
             <Button
                 android:text="RESET"
                 android:textSize="18dp"
                 android:layout_width="200sp"
                 android:id="@+id/resetBtn"
+                android:onClick="Reset"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
